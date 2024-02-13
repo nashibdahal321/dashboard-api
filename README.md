@@ -2,6 +2,8 @@
 
 The Dashboard API provides endpoints for user authentication, registration, retrieving items, and initializing the database.
 
+**BASE URL** ` https://dashboardapi-910b0a92507e.herokuapp.com/`
+
 ## Authentication
 
 ### Register
