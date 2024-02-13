@@ -13,6 +13,15 @@ The Dashboard API provides endpoints for user authentication, registration, retr
   - `username`: Username of the user
   - `password`: Password of the user
   - `email`: Email of the user
+
+  **Example**
+  ```json
+  {
+    "username": "johndoe",
+    "password": "Helloworld",
+    "email": "johndoe@email.com"
+  }
+  ```
 - **Response:**
   - Success:
     ```json
@@ -34,6 +43,14 @@ The Dashboard API provides endpoints for user authentication, registration, retr
 - **Parameters:**
   - `username`: Username of the user
   - `password`: Password of the user
+
+  **Example**
+  ```json
+  {
+    "username": "johndoe",
+    "password": "Helloworld"
+  }
+  ```
 - **Response:**
   - Success:
     ```json
