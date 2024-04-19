@@ -123,7 +123,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 CORS_ALLOWED_ORIGINS = [
-        "http://localhost:3000",  
+        "http://localhost:3000",
+        "https://dashboardapi-frontend-cbc0624d086a.herokuapp.com/" 
     ]
 
 CORS_ALLOW_CREDENTIALS = True
